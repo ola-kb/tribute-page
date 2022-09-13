@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   margin: 30px 0;
   padding: 15px 5px;
 }
@@ -15,6 +15,7 @@ h1 {
 header>p {
   font-size: 30px;
   color: #ffcbcb;
+  font-weight: bold;
 }
 
 img {
@@ -23,8 +24,9 @@ img {
   height: auto;
   margin: 0 auto;
   border-radius: 50%;
-  border: 10px solid #ddd;
+  border: 10px solid white;
 }
+
 
 figcaption {
   font-size: 18px;
@@ -48,17 +50,18 @@ section li {
   padding: 10px 5px;
 }
 
-#headline,
-ul {
-  border: 5px double white
-}
 
 #headline {
-  font-size: 25px;
+  font-size: 30px;
   border-bottom: none;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 0;
-  margin-bottom: 0
+  margin-bottom: 0;
+  color: #edf6f9;
+}
+
+#tribute-info {
+  border: 10px double white
 }
 
 ul {
@@ -72,10 +75,11 @@ cite {
   font-style: oblique;
   color: white;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 25px;
   max-width: 545px;
   margin: 0 auto 50px auto;
   padding: 10px 0;
+ font-family: papyrus;
 }
 
 #tribute-link {
